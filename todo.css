@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'IM Fell English', serif;}
+h1{
+    text-align: center;
+    font-size: 56px;
+}
+h3{
+    text-align: center;
+    font-size:25px;
+}
+body{
+    background-image: url("606ec8c94d71affcb9ebe8d8c5cd1a95.jpg");
+    background-size: cover;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right:0;
+    padding: 30px 0;
+    border-radius: 8px;
+    height:35%;
+    width: 550px;
+    position: absolute;
+    
+}
+#newtask{
+    position: relative;
+    background: white;
+    padding:30px 15px;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0,0,0.9);
+}
+#newtask input{
+   border-radius: 5px;
+   height: 45px;
+   width: 70%;
+   font-size: 25px;
+   border: 2px solid black;
+   padding: 15px;
+   color: #111;
+   font-weight: 500;
+   position: relative;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: rgb(230, 184, 18);
+
+}
+#newtask button{
+    color: rgb(0, 0, 0);
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 16px;
+    background: rgb(128, 98, 0);
+}
+#tasks{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+.tasks{
+    background: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 25px #fff;
+}
+.task span{
+    font-size: 150px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.tasks button{
+    border: none;
+    height: 100%;
+    background:rgb(128, 98, 0);
+    width: 45px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.completed
+{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+#delete button{
+    border-radius: 5px;
+    position: relative;
+    width: 5%;
+    height:11px;
+    cursor: pointer;
+}

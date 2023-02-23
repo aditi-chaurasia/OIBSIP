@@ -1,0 +1,28 @@
+body{
+  border-color: black;
+  border-style: solid;
+  padding: 0px,25px 0px 25px;
+  background-image: url("pinterestdownloader.com-1677165277.115703.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#first{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Labrada', serif;
+}
+.pic {
+  display: block;
+  text-align: center;
+}
+.third,.four,.fifth,.six,.seven{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Labrada', serif;
+}
+.sub {
+  font-family: 'Tilt Neon', cursive;
+  text-align: justify;
+}
